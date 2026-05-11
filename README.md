@@ -7,7 +7,8 @@ Live English-to-Japanese speech translation using OpenAI's Realtime API. Audio s
 ## Setup
 
 ```bash
-cd ~/Documents/realtime-translator
+git clone https://github.com/ravi03071991/realtime-translator.git
+cd realtime-translator
 npm install
 cp .env.local.example .env.local   # then edit .env.local and paste your OPENAI_API_KEY
 npm run dev
